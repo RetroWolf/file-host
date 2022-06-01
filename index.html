@@ -10,6 +10,22 @@ p {text-align: center;}
   width: 50%;
 }
 </style>
+<audio id="myAudio" controls autoplay>
+  <source src="horse.ogg" type="audio/ogg">
+  <source src="horse.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+
+
+<p id="demo2"></p>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myAudio").autoplay;
+  document.getElementById("demo").innerHTML = x;
+}
+</script>
 <body> 
 <h1>WOW U R GULIBLE</h1>
 <img src="https://media4.giphy.com/media/ue0FFiQufbwvI2Dyit/giphy.gif" alt="assignment" class="center">
